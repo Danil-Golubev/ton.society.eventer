@@ -4,9 +4,20 @@
   box-sizing: border-box;
   font-family: "inter";
 }
-.body {
-  background-color: black;
-  color: var(--tg-theme-text-color);
+a {
+  text-decoration: none; /* Убирает подчеркивание */
+  color: inherit; /* Использует цвет текста родителя */
+}
+
+.main {
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #eff4f8;
+  display: flex;
+  justify-content: center;
+}
+.content {
+  width: 90%;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");

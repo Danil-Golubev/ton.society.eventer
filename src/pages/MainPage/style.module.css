@@ -1,8 +1,8 @@
 .mainBlock {
-  height: 100vh;
+  min-height: 95vh;
   width: 100%;
   background-color: #eff4f8;
-  padding: 20px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,7 +15,6 @@
 }
 
 .list {
-  width: 90%;
   display: flex;
   flex-direction: column;
   gap: 20px;

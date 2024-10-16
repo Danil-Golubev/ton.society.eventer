@@ -1,5 +1,5 @@
 .mainBlock {
-  height: 73px;
+  min-height: 73px;
   width: 100%;
   background-color: white;
   border-radius: 20px;
@@ -17,6 +17,9 @@
   height: 48px;
 }
 
+.textBlock {
+  height: auto;
+}
 .date {
   font-weight: 600;
   font-size: 12px;
@@ -25,4 +28,5 @@
 .title {
   font-weight: 600;
   max-width: 231px;
+  height: auto;
 }
