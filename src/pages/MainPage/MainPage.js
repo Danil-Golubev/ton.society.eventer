@@ -2,6 +2,7 @@ import { EventBlock } from "../../components/EventBlock/EventBlock";
 import style from "./style.module.css";
 import { Link } from "react-router-dom";
 export const MainPage = () => {
+  window.Telegram.WebApp.BackButton.hide();
   return (
     <>
       <div className={style.mainBlock}>
