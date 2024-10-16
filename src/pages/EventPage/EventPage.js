@@ -3,13 +3,15 @@ import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 export const EventPage = () => {
   const navigate = useNavigate();
-  // Показать нативную кнопку "Назад" в Telegram Web App
-  window.Telegram.WebApp.BackButton.show();
-  // Обработчик события при нажатии на кнопку "Назад"
-  window.Telegram.WebApp.BackButton.onClick(() => {
-    navigate(-1);
-  });
 
+  useEffect(() => {
+    // Показать нативную кнопку "Назад" в Telegram Web App
+    window.Telegram.WebApp.BackButton.show();
+    // Обработчик события при нажатии на кнопку "Назад"
+    window.Telegram.WebApp.BackButton.onClick(() => {
+      navigate(-1);
+    });
+  });
   return (
     <>
       <div className={style.contentBlock}>
