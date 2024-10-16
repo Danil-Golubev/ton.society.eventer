@@ -41,6 +41,30 @@ export const EventPage = () => {
             early stage founders that will begin in October.
           </div>
         </div>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfmcf-hW28CfAPA2XulgJxp2Sg6s3hApEhskHLRWdSoAjHoKw/viewform"
+          className={style.button}
+        >
+          <img className={style.icon} src="/images/apply.png" alt="button" />
+          <div className={style.buttonText}>Подать заявку на участие</div>
+        </a>
+        <div className={style.button2}>
+          <img className={style.icon} src="/images/listBlue.png" alt="button" />
+          <div className={style.buttonText2}>Программа мероприятия</div>
+        </div>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://t.me/tonsocietycishub"
+          className={style.button2}
+        >
+          <img
+            className={style.icon}
+            src="/images/speakBlue.png"
+            alt="button"
+          />
+          <div className={style.buttonText2}>Новости</div>
+        </a>
       </div>
     </>
   );
