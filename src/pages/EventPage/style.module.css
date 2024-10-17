@@ -73,8 +73,8 @@
   display: flex;
   gap: 10px;
   padding-left: 20px;
-  align-items: center;
   border: none;
+  align-items: center;
   background-color: white;
   box-shadow: inset 0 0 0 1px #0053f3; /* Внутренняя обводка */
   width: 100%;
@@ -84,12 +84,13 @@
 }
 
 .buttonText {
-  size: 16px;
+  size: 2px;
   color: white;
   font-weight: 600;
 }
 .buttonText2 {
-  size: 16px;
+  justify-content: center;
+  size: 2px;
   color: #0053f3;
   font-weight: 600;
 }

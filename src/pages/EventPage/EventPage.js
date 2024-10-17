@@ -1,5 +1,5 @@
 import style from "./style.module.css";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { useEffect } from "react";
 export const EventPage = () => {
   const navigate = useNavigate();
@@ -48,10 +48,16 @@ export const EventPage = () => {
           <img className={style.icon} src="/images/apply.png" alt="button" />
           <div className={style.buttonText}>Подать заявку на участие</div>
         </a>
-        <div className={style.button2}>
-          <img className={style.icon} src="/images/listBlue.png" alt="button" />
-          <div className={style.buttonText2}>Программа мероприятия</div>
-        </div>
+        <Link to="/">
+          <div className={style.button2}>
+            <img
+              className={style.icon}
+              src="/images/listBlue.png"
+              alt="button"
+            />
+            <div className={style.buttonText2}>Программа мероприятия</div>
+          </div>
+        </Link>
         <a
           target="_blank"
           rel="noopener noreferrer"
@@ -63,7 +69,10 @@ export const EventPage = () => {
             src="/images/speakBlue.png"
             alt="button"
           />
-          <div className={style.buttonText2}>Новости</div>
+
+          <div className={style.buttonText2}>
+            <div>Новости</div>
+          </div>
         </a>
       </div>
     </>
