@@ -80,7 +80,7 @@ export const EventPage = () => {
           />
 
           <div className={style.buttonText2}>
-            <div>Новости</div>
+            <div>Новости комьюнити</div>
           </div>
         </a>
       </div>
