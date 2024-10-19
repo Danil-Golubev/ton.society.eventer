@@ -21,7 +21,7 @@ export const EventPage = () => {
     window.Telegram.WebApp.BackButton.onClick(() => {
       navigate(-1);
     });
-  }, []);
+  }, [id, navigate]);
 
   if (event.length === 0) {
     return (
