@@ -10,7 +10,7 @@ function App() {
           <BrowserRouter>
             <Routes>
               <Route element={<MainPage />} path="/" />
-              <Route element={<EventPage />} path="/event" />
+              <Route element={<EventPage />} path="/events/:id" />
             </Routes>
           </BrowserRouter>
         </div>

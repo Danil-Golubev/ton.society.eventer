@@ -102,3 +102,19 @@
   width: 25px;
   height: 25px;
 }
+.imageBlock {
+  border-radius: 14px;
+  background-color: rgb(220, 220, 220); /* Цвет фона для скелетона */
+  width: 48px;
+  height: 48px;
+  position: relative; /* Для анимации */
+  overflow: hidden; /* Скрытие анимации за пределами блока */
+}
+.date {
+  width: 100px;
+  height: 15px;
+  background-color: rgb(220, 220, 220); /* Цвет фона для скелетона */
+  border-radius: 14px;
+  position: relative; /* Для анимации */
+  overflow: hidden; /* Скрытие анимации за пределами блока */
+}
