@@ -122,7 +122,7 @@
     rgba(200, 200, 200, 0.6) 50%,
     rgba(255, 255, 255, 0) 100%
   );
-  animation: skeleton-loading-title 1.5s ease-in-out infinite; /* Увеличена длительность анимации */
+  animation: skeleton-loading-title 1s ease-in-out infinite; /* Увеличена длительность анимации */
   border-radius: inherit; /* Повторяем закругление краев */
 }
 

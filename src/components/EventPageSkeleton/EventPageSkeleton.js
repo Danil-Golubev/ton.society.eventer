@@ -5,16 +5,15 @@ export const EventPageSkeleton = () => {
     <>
       <div className={style.contentBlock}>
         <div className={style.mainBlock}>
-          <div className={style.imageBlock}></div>
+          <div className={style.imageBlock} />
           <div className={style.textBlock}>
-            <div className={style.date}></div>
-            <div className={style.title}></div>
-
-            <div className={style.prizePool}></div>
+            <div className={style.date} />
+            <div className={style.title} />
+            <div className={style.prizePool} />
           </div>
         </div>
         <div className={style.descriptionBlock}>
-          <div className={style.description}></div>
+          <div className={style.description} />
         </div>
       </div>
     </>

@@ -14,7 +14,7 @@ Link {
 }
 
 .main {
-  min-height: 100vh;
+  min-height: 125vh;
   padding: 20px;
   background-color: #eff4f8;
   display: flex;

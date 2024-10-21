@@ -1,7 +1,6 @@
 import style from "./style.module.css";
 import { Link } from "react-router-dom";
 export const EventBlock = ({ date, title, imageUrl, id }) => {
-  console.log(imageUrl);
   return (
     <>
       <Link to={`/events/${id}`}>
