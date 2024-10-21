@@ -1,3 +1,4 @@
+import style from "./style.module.css";
 import React, { useEffect, useState } from "react";
 import { QRCodeCanvas } from "qrcode.react"; // Импорт компонента для QR-кода
 
@@ -19,10 +20,9 @@ export const QrPage = () => {
   }, []);
 
   return (
-    <div>
-      <h1>Telegram Mini App</h1>
+    <div className={style.contentBlock}>
       <div>
-        <p>Username: {username}</p> {/* Отображаем username */}
+        <p>Hi: {username}</p> {/* Отображаем username */}
         {username !== "Username не установлен" && (
           <QRCodeCanvas value={username} size={256} /> // Генерация QR-кода
         )}

@@ -5,7 +5,7 @@
   right: 0;
   height: 60px;
   background-color: white;
-  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Добавляем тень сверху */
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.01); /* Добавляем тень сверху */
   display: flex;
   justify-content: space-around;
   align-items: center;
