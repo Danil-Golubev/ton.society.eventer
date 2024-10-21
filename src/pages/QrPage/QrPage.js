@@ -1,5 +1,6 @@
-// import style from "./style.module.css";
 import React, { useEffect, useState } from "react";
+import { QRCodeCanvas } from "qrcode.react"; // Импорт компонента для QR-кода
+
 export const QrPage = () => {
   const [username, setUsername] = useState("");
 
@@ -13,7 +14,7 @@ export const QrPage = () => {
     if (initDataUnsafe && initDataUnsafe.user && initDataUnsafe.user.username) {
       setUsername(initDataUnsafe.user.username); // Установка username в состояние
     } else {
-      setUsername("Username не установлен"); // Если username отсутствует
+      setUsername("Username не установлен");
     }
   }, []);
 
@@ -21,7 +22,10 @@ export const QrPage = () => {
     <div>
       <h1>Telegram Mini App</h1>
       <div>
-        <p>Username: {username}</p> {/* Вывод username в div */}
+        <p>Username: {username}</p> {/* Отображаем username */}
+        {username !== "Username не установлен" && (
+          <QRCodeCanvas value={username} size={256} /> // Генерация QR-кода
+        )}
       </div>
     </div>
   );
