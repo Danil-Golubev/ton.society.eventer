@@ -4,17 +4,18 @@
   box-sizing: border-box;
   font-family: "inter";
 }
+
+.navBarSpace {
+  height: 60px;
+}
 a {
   text-decoration: none; /* Убирает подчеркивание */
   color: inherit; /* Использует цвет текста родителя */
   font-size: inherit;
 }
-Link {
-  text-decoration: none; /* Убирает подчеркивание */
-}
 
 .main {
-  min-height: 118vh;
+  min-height: 110vh;
   padding: 20px;
   background-color: #eff4f8;
   display: flex;

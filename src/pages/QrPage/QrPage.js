@@ -21,7 +21,7 @@ export const QrPage = () => {
 
   return (
     <div className={style.contentBlock}>
-      <div>
+      <div className={style.mainBlock}>
         <p>Hi: {username}</p> {/* Отображаем username */}
         {username !== "Username не установлен" && (
           <QRCodeCanvas value={username} size={256} /> // Генерация QR-кода

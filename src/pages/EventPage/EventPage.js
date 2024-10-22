@@ -50,10 +50,7 @@ export const EventPage = () => {
         <div className={style.descriptionBlock}>
           <div className={style.description}>{event.description}</div>
         </div>
-        <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSfmcf-hW28CfAPA2XulgJxp2Sg6s3hApEhskHLRWdSoAjHoKw/viewform"
-          className={style.button}
-        >
+        <a href={event.url} className={style.button}>
           <img className={style.icon} src="/images/apply.png" alt="button" />
           <div className={style.buttonText}>Подать заявку на участие</div>
         </a>

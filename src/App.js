@@ -15,6 +15,7 @@ function App() {
               <Route element={<EventPage />} path="/events/:id" />
               <Route element={<QrPage />} path="/qr" />
             </Routes>
+            <div className="navBarSpace"></div>
             <NavBar />
           </BrowserRouter>
         </div>
